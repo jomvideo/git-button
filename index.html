@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Git Style Button Basic With MultiColor Setup</title>
+
+<!-- Load JQUERY from CDN -->
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+<!-- Load COMMON CSS For Page -->
+<link rel="stylesheet" media="screen" type="text/css" href="css/common.css" />
+
+<!-- Load CSS For Buttons -->
+<link href="css/minibutton.css" media="screen" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+ 
+<ul class="actions">
+<li><a href="javascript:;" class="gitbutton gray"><span>Gray 2 Blue</span></a></li>
+<li><a href="javascript:;" class="gitbutton drkgray"><span>Gray 2 Dark</span></a></li>
+<li><a href="javascript:;" class="gitbutton red"><span>Gray 2 Red </span></a></li>
+<li><a href="javascript:;" class="gitbutton blue"><span>Button Blue</span></a></li>
+<li><a href="javascript:;" class="gitbutton silver"><span>Button Silver</span></a></li>
+<li><a href="javascript:;" class="gitbutton blk"><span>Black</span></a></li>
+<li><a href="javascript:;" class="gitbutton wht"><span>White</span></a></li>
+</ul>
+
+<script type="text/javascript">
+		jQuery(".minibutton, .gitbutton").bind({
+			mousedown : function(){
+				jQuery(this).addClass("mousedown")
+			},
+			mouseup : function(){
+				jQuery(this).removeClass("mousedown")
+			},
+			mouseleave : function(){
+				jQuery(this).removeClass("mousedown")
+			}
+		});
+</script>
+  
+</body>
+</html>

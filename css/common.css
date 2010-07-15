@@ -1,0 +1,13 @@
+/* COMMON - JomVideo */
+*{margin:0;padding:0;}
+html,body{height:100%;color:black;}
+body{background-color:white;font:13.34px helvetica,arial,freesans,clean,sans-serif;*font-size:small;}
+table{font-size:inherit;font:100%;}
+input.text{padding:1px 0;}
+pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+body *{line-height:1.4em;padding:20px;}
+p{margin:.3em 0;}
+img{border:0;}
+ul.actions li {color:#333333;display:inline;font-weight:bold;list-style-type:none;margin:0 0 0 5px;padding:0;}
+a{text-decoration:none;}
+a.danger{color:#c00;}

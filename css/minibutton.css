@@ -1,0 +1,58 @@
+ul.actions li{list-style-type:none;display:inline;font-size:11px;font-weight:bold;color:#333;margin:0 0 0 5px;}
+.gitbutton{display:inline-block;text-decoration:none;height:23px;padding:0 0 0 3px;font-size:11px;font-weight:bold;color:#fff;white-space:nowrap;border:none;overflow:visible;cursor:pointer;}
+
+/** GRAY to BLUE BUTTON Git Style **/
+.gitbutton.gray{color:#333;text-shadow:1px 1px 0 #fff;background:url(../images/minibutton_matrix.png) 0 0 no-repeat;}
+.gitbutton.gray>span{display:block;height:23px;padding:0 10px 0 8px;line-height:23px;background:url(../images/minibutton_matrix.png) 100% 0 no-repeat;}
+.gitbutton.gray:hover{color:#fff;text-decoration:none;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);background-position:0 -30px;}
+.gitbutton.gray:hover>span{background-position:100% -30px;}
+.gitbutton.gray.mousedown{background-position:0 -60px;}
+.gitbutton.gray.mousedown>span{background-position:100% -60px;}
+
+/** GRAY TO DARK BUTTON Git Style **/
+.gitbutton.drkgray{color:#333;text-shadow:1px 1px 0 #fff;background:url(../images/minibutton_matrix.png) 0 0 no-repeat;}
+.gitbutton.drkgray>span{display:block;height:23px;padding:0 10px 0 8px;line-height:23px;background:url(../images/minibutton_matrix.png) 100% 0 no-repeat;}
+.gitbutton.drkgray:hover{color:#fff;text-decoration:none;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);background-position:0 -150px;}
+.gitbutton.drkgray:hover>span{background-position:100% -150px;}
+.gitbutton.drkgray.mousedown{background-position:0 -180px;}
+.gitbutton.drkgray.mousedown>span{background-position:100% -180px;}
+
+/** RED BUTTON Git Style **/
+.gitbutton.red{color:#900;text-shadow:1px 1px 0 #fff;background:url(../images/minibutton_matrix.png) 0 0 no-repeat;}
+.gitbutton.red>span{display:block;height:23px;padding:0 10px 0 8px;line-height:23px;background:url(../images/minibutton_matrix.png) 100% 0 no-repeat;}
+.gitbutton.red:hover{color:#fff;text-decoration:none;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);background-position:0 -90px;}
+.gitbutton.red:hover>span{background-position:100% -90px;}
+.gitbutton.red.mousedown{background-position:0 -120px;}
+.gitbutton.red.mousedown>span{background-position:100% -120px;}
+
+/** BLUE BUTTON Git Style **/
+.gitbutton.blue{color:#fff;text-shadow:-1px -1px 0 #29659F;background:url(../images/minibutton_matrix.png) 0 -30px no-repeat;}
+.gitbutton.blue>span{display:block;height:23px;padding:0 10px 0 8px;line-height:23px;background:url(../images/minibutton_matrix.png) 100% -30px no-repeat;}
+.gitbutton.blue:hover{color:#fff;text-decoration:none;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);background-position:0 -60px;}
+.gitbutton.blue:hover>span{background-position:100% -60px;}
+.gitbutton.blue.mousedown{background-position:0 -30px;}
+.gitbutton.blue.mousedown>span{background-position:100% -30px;}
+
+/** SILVER BUTTON Git Style **/
+.gitbutton.silver{color:#333;text-shadow:1px 1px 0 #fff;background:url(../images/minibutton_matrix.png) 0 -150px no-repeat;}
+.gitbutton.silver>span{display:block;height:23px;padding:0 10px 0 8px;line-height:23px;background:url(../images/minibutton_matrix.png) 100% -150px no-repeat;}
+.gitbutton.silver:hover{color:#fff;text-decoration:none;text-shadow:-1px -1px 0 rgba(0,0,0,0.3);background-position:0 -300px;}
+.gitbutton.silver:hover>span{background-position:100% -300px;}
+.gitbutton.silver.mousedown{background-position:0 -330px;}
+.gitbutton.silver.mousedown>span{background-position:100% -330px;}
+
+/** BLACK BUTTON Git Style **/
+.gitbutton.blk{color:#FFF;text-shadow:-1px -1px 0 #333;background:url(../images/minibutton_matrix.png) 0 -300px no-repeat;}
+.gitbutton.blk>span{display:block;height:23px;padding:0 10px 0 8px;line-height:23px;background:url(../images/minibutton_matrix.png) 100% -300px no-repeat;}
+.gitbutton.blk:hover{color:#FFF;text-decoration:none;text-shadow:-1px -1px 0 rgba(192,192,192,0.3);background-position:0 -210px;}
+.gitbutton.blk:hover>span{background-position:100% -240px;}
+.gitbutton.blk.mousedown{background-position:0 -270px;}
+.gitbutton.blk.mousedown>span{background-position:100% -270px;}
+
+/** WHITE BUTTON Git Style **/
+.gitbutton.wht{color:#333;text-shadow:1px 1px 0 #fff;background:url(../images/minibutton_matrix.png) 0 -360px no-repeat;}
+.gitbutton.wht>span{display:block;height:23px;padding:0 10px 0 8px;line-height:23px;background:url(../images/minibutton_matrix.png) 100% -360px no-repeat;}
+.gitbutton.wht:hover{color:#333;text-decoration:none;text-shadow:-1px -1px 0 rgba(255,255,255,0.3);background-position:0 -390px;}
+.gitbutton.wht:hover>span{background-position:100% -390px;}
+.gitbutton.wht.mousedown{background-position:0 -360px;}
+.gitbutton.wht.mousedown>span{background-position:100% -360px;}
